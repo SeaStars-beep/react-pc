@@ -1,0 +1,59 @@
+
+.screen-withdrawal-res
+  display: flex
+  flex-direction: column
+  background: #fff
+  height: 100%
+  width: 100%
+  background: #F5F5F5;
+  overflow: auto
+
+  .screen-con
+    display: flex
+    flex-direction: column
+    align-items: center
+    .screen-con-img
+      width 100px
+      height: 100px
+      margin-top: 51px
+      &.success
+        background: url('@assets/images/success-ico.png') no-repeat center
+        background-size: cover
+      &.fail
+        background: url('@assets/images/fail-ico.png') no-repeat center
+        background-size: cover
+  
+    .screen-con-text
+      line-height: 28px
+      font-size: 18px
+      font-weight: 600
+
+  .msgCon
+    font-size 14px
+    height: 14px
+    margin-top: 22px
+    color: #FE1300
+    text-align: center
+    font-family: PingFangSC-Regular, PingFang SC
+
+  .submit-content
+    width: 100%
+    display: flex
+    justify-content: center
+    .submit-btn
+      font-size 15px
+      line-height: 45px
+      text-align: center
+      width: 272px
+      height: 45px
+      border-radius: 22px;
+      background: #1676FF
+      color: white
+      margin: 15px 0
+
+  .either
+    width 100%
+    text-align: center
+    font-size 12px
+    font-family: PingFangSC-Regular, PingFang SC
+    color: #1676FF

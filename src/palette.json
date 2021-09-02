@@ -1,0 +1,8 @@
+{
+  "mainBackground": "#10092f",
+  "secondBackground": "rgba(255, 255, 255, 0.07)",
+  "selectedText": "#33A3F4",
+  "mainText": "#ffffff",
+  "secondText": "#949494",
+  "darkMainText": "#000000"
+}

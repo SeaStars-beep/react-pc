@@ -1,0 +1,13 @@
+{
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    
+    "eslint.nodePath": "",
+    "eslint.format.enable": true,
+    "eslint.quiet": true,
+    "eslint.nodeEnv": ""
+}
